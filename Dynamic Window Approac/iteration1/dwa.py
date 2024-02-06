@@ -2,7 +2,7 @@ import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.animation as ani
 import matplotlib.pyplot as plt
-from animation import Animation_robot
+from DWA.iteration1.animation import Animation_robot
 
 # Class for representing a path
 class Path:
