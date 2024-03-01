@@ -17,8 +17,8 @@ ROBOTRADIUS = 0.10
 W = 2 * ROBOTRADIUS # width of robot
 SAFEDIST = ROBOTRADIUS      # used in the cost function for avoiding obstacles
 
-MAXVELOCITY = 0.5     #ms^(-1) max speed of each wheel
-MAXACCELERATION = 0.5 #ms^(-2) max rate we can change speed of each wheel
+MAXVELOCITY = 0.1     #ms^(-1) max speed of each wheel
+MAXACCELERATION = 0.1 #ms^(-2) max rate we can change speed of each wheel
 
 
 BARRIERVELOCITYRANGE = 0.15
